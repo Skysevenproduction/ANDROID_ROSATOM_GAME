@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/aleksey.m/Documents/_projects/Android/ROSATOM_GAME_ANDROID/app/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/Users/aleksey.m/Documents/_projects/Android/ROSATOM_GAME_ANDROID/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-670e30b3c3fa2ca9999825125890c98c43e63511.jar" />
+    </item>
+
+</items>

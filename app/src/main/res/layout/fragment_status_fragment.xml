@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.skyseven.rosatom_game_android.StatusFragment"
+    android:id="@+id/statusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_color_status_bar">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:layout_margin="@dimen/status_column_margin_all">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusQuestionImage"
+                android:src="@drawable/ic_count"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="left"
+            android:weightSum="1"
+            android:layout_margin="@dimen/status_column_margin_all">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="8/8"
+                android:id="@+id/statusQuestionText"
+                android:layout_gravity="center"
+                android:typeface="normal"
+                android:layout_weight="0.70"
+                android:textColor="@color/status_text_color"
+                android:textSize="@dimen/text_size_status" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="right"
+            android:layout_margin="@dimen/status_column_margin_all">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusLifeImage"
+                android:src="@drawable/ic_life"
+                android:layout_gravity="center" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:layout_margin="@dimen/status_column_margin_all">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3/3"
+                android:id="@+id/statusLifeText"
+                android:layout_gravity="center"
+                android:typeface="normal"
+                android:layout_weight="0.70"
+                android:textColor="@color/status_text_color"
+                android:textSize="@dimen/text_size_status" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:layout_margin="@dimen/status_column_margin_all">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusLevelImage"
+                android:src="@drawable/ic_level"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:layout_margin="@dimen/status_column_margin_all">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="24"
+                android:id="@+id/statusLevelText"
+                android:layout_gravity="center"
+                android:typeface="normal"
+                android:layout_weight="0.70"
+                android:textColor="@color/status_text_color"
+                android:textSize="@dimen/text_size_status" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

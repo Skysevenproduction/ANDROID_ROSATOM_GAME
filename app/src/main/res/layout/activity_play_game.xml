@@ -1,0 +1,186 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="top">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_weight="7"
+        android:background="@color/bg_color_under_status_bar">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:name="ru.skyseven.rosatom_game_android.StatusFragment"
+            android:layout_weight="6"
+            android:id="@+id/status"
+            tools:layout="@layout/fragment_status_fragment" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|bottom"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/timerText"
+                        android:textColor="@color/status_text_color"
+                        android:textSize="@dimen/text_size_status" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="12"
+                    android:gravity="center_horizontal"
+                    android:background="@color/bg_color_middle_1">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/img_clock"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_color_middle_1"
+        android:layout_weight="6">
+
+        <ru.skyseven.rosatom_game_android.widgets.AutoResizeTextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="            Первая в мире АЭС была введена в Обнинске в 1954 году и безаварийно проработала 50 лет.Первая в мире АЭС была введена в Обнинске в 1954 году и безаварийно проработала 50 лет. "
+            android:id="@+id/questionText"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_question" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="8">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/bg_color_middle_1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"
+                    android:background="@color/bg_color_middle_1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:background="@color/bg_color_up_bottom"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageBtnBG"
+                        android:src="@drawable/bg_btn_true_false"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true"
+                        android:clickable="false"
+                        android:cropToPadding="false" />
+
+                    <Button
+                        android:layout_width="125dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/buttonYES"
+                        android:layout_alignLeft="@+id/imageBtnBG"
+                        android:alpha="0" />
+
+                    <Button
+                        android:layout_width="125dp"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/buttonNO"
+                        android:background="@color/bg_color_middle_1"
+                        android:layout_alignRight="@+id/imageBtnBG"
+                        android:alpha="0" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4"></LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:background="@color/bg_color_bottom_line">
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

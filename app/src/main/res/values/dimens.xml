@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_status">25sp</dimen>
+    <dimen name="answer_screen_current_question_number_size">35sp</dimen>
+    <dimen name="status_column_margin_all">3dp</dimen>
+    <dimen name="text_size_start_button">30sp</dimen>
+    <dimen name="text_size_answer">30sp</dimen>
+    <dimen name="text_size_question">30sp</dimen>
+
+    <dimen name="start_screen_number_text_size">30sp</dimen>
+    <dimen name="start_screen_title_text_size">20sp</dimen>
+    <dimen name="progress_img_width">200dp</dimen>
+    <dimen name="progress_img_height">200dp</dimen>
+</resources>

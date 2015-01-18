@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="status_text_color">#c43567</color>
+    <color name="answer_number_text_color">#477b91</color>
+    <color name="bg_color_status_bar">#06141a</color>
+    <color name="bg_color_under_status_bar">#d2f9f9</color>
+    <color name="bg_color_middle_1">#fefef0</color>
+    <color name="bg_color_bottom_line">#761a41</color>
+    <color name="bg_color_up_bottom">#ae5162</color>
+    <color name="bg_color__middle_2">#3b4a5a</color>
+    <color name="bg_color_middle_right_answer">#477b91</color>
+    <color name="bg_color_middle_wrong_answer">#3b4a5a</color>
+    <color name="white_color">#ffffff</color>
+    <color name="bg_color_comleted_level">#ef8600</color>
+</resources>
